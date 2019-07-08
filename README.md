@@ -25,12 +25,12 @@ This app contains an opinionated set of components for modern web development, i
 
 ## Steps
 
-You can [deploy this application to IBM Cloud](https://cloud.ibm.com/developer/appservice/starter-kits/040cfa09-9a7e-375c-b25d-9ee073b2f581/nodejs-web-app-with-expressjs-and-react) or [build it locally](#building-locally) by cloning this repo first. Once your app is live, you can access the `/health` endpoint to build out your cloud native application.
+You can [deploy this application to IBM Cloud](https://cloud.ibm.com/developer/appservice/create-app?starterKit=6b8ec7af-e3ce-3d7d-a1f4-396db8fd1184) or [build it locally](#building-locally) by cloning this repo first. Once your app is live, you can access the `/health` endpoint to build out your cloud native application.
 
 ### Deploying to IBM Cloud
 
 <p align="center">
-    <a href="https://cloud.ibm.com/developer/appservice/starter-kits/040cfa09-9a7e-375c-b25d-9ee073b2f581/nodejs-web-app-with-expressjs-and-react">
+    <a href="https://cloud.ibm.com/developer/appservice/create-app?starterKit=6b8ec7af-e3ce-3d7d-a1f4-396db8fd1184">
     <img src="https://cloud.ibm.com/devops/setup/deploy/button_x2.png" alt="Deploy to IBM Cloud">
     </a>
 </p>
