@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="http://kitura.io/">
+    <a href="https://cloud.ibm.com">
         <img src="https://landscape.cncf.io/logos/ibm-cloud-kcsp.svg" height="100" alt="IBM Cloud">
     </a>
 </p>
@@ -44,7 +44,7 @@ To get started building this application locally, you can either run the applica
 
 #### Native Application Development
 
-Install the latest [Node.js](https://nodejs.org/en/download/) 6+ LTS version.
+Install the latest [Node.js](https://nodejs.org/en/download/) 10+ LTS version.
 
 Once the Node toolchain has been installed, you can download the project dependencies with:
 
@@ -52,20 +52,7 @@ Once the Node toolchain has been installed, you can download the project depende
 npm install
 ```
 
-Modern web applications require a compilation step to prepare your ES2015 JavaScript or Sass stylesheets into compressed Javascript ready for a browser. Webpack is used for bundling your JavaScript sources and styles into a `bundle.js` file that your `index.html` file can import. 
-
-***Webpack***
-
-For development mode, use `webpack -d` to leave the sources uncompress and with the symbols intact.
-
-For production mode, use `webpack -p` to compress and obfuscate your sources for development usage.
-
-***Gulp***
-
-Gulp is a task runner for JavaScript. You can run the above Webpack commands in by running:
-```bash
-gulp
-```
+Modern web applications require a compilation step to prepare your ES2015 JavaScript or Sass stylesheets into compressed JavaScript ready for a browser. Webpack is used for bundling your JavaScript sources and styles into a `bundle.js` file that your `index.html` file can import. 
 
 To run your application locally:
 ```bash
@@ -74,7 +61,6 @@ npm run start
 
 Your application will be running at `http://localhost:3000`.  You can access the `/health` and `/appmetrics-dash` endpoints at the host.
 
-<!--
 #### IBM Cloud Developer Tools
 
 Install [IBM Cloud Developer Tools](https://cloud.ibm.com/docs/cli?topic=cloud-cli-getting-started) on your machine by running the following command:
@@ -82,24 +68,34 @@ Install [IBM Cloud Developer Tools](https://cloud.ibm.com/docs/cli?topic=cloud-c
 curl -sL https://ibm.biz/idt-installer | bash
 ```
 
+Create an application on IBM Cloud by running:
+
+```bash
+ibmcloud dev create
+```
+
+This will create and download a starter application with the necessary files needed for local development and deployment.
+
 Your application will be compiled with Docker containers. To compile and run your app, run:
+
 ```bash
 ibmcloud dev build
 ibmcloud dev run
 ```
 
 This will launch your application locally. When you are ready to deploy to IBM Cloud on Cloud Foundry or Kubernetes, run one of the following commands:
+
 ```bash
-ibmcloud dev deploy -t buildpack
-ibmcloud dev deploy -t container
+ibmcloud dev deploy -t buildpack // to Cloud Foundry
+ibmcloud dev deploy -t container // to K8s cluster
 ```
 
 You can build and debug your app locally with:
+
 ```bash
 ibmcloud dev build --debug
 ibmcloud dev debug
 ```
--->
 
 ##### Session Store
 
