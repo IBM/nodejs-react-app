@@ -21,7 +21,6 @@ This app contains an opinionated set of components for modern web development, i
 * [React](https://facebook.github.io/react/)
 * [Webpack](https://webpack.github.io/)
 * [Sass](http://sass-lang.com/) 
-* [gulp](http://gulpjs.com/)
 
 ## Steps
 
