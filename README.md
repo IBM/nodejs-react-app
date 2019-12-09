@@ -20,7 +20,7 @@ This app contains an opinionated set of components for modern web development, i
 
 * [React](https://facebook.github.io/react/)
 * [Webpack](https://webpack.github.io/)
-* [Sass](http://sass-lang.com/) 
+* [Sass](http://sass-lang.com/)
 
 ## Steps
 
@@ -34,8 +34,9 @@ You can [deploy this application to IBM Cloud](https://cloud.ibm.com/developer/a
     </a>
 </p>
 
-Use the button above to deploy this same application to IBM Cloud. This option will create a deployment pipeline, complete with a hosted Git lab project and DevOps toolchain.  You will have the option of deploying to either Cloud Foundry or a Kubernetes cluster. [IBM Cloud DevOps](https://www.ibm.com/cloud/devops) services provides toolchains as a set of tool integrations that support development, deployment, and operations tasks inside IBM Cloud. 
+Click **Deploy to IBM Cloud** to deploy this same application to IBM Cloud. This option creates a deployment pipeline, complete with a hosted GitLab project and a DevOps toolchain. You can deploy your app to Cloud Foundry, a Kubernetes cluster, or a Red Hat OpenShift cluster. OpenShift is available only through a standard cluster, which requires you to have a billable account.
 
+[IBM Cloud DevOps](https://www.ibm.com/cloud/devops) services provides toolchains as a set of tool integrations that support development, deployment, and operations tasks inside IBM Cloud.
 
 ### Building Locally
 
@@ -51,7 +52,7 @@ Once the Node toolchain has been installed, you can download the project depende
 npm install
 ```
 
-Modern web applications require a compilation step to prepare your ES2015 JavaScript or Sass stylesheets into compressed JavaScript ready for a browser. Webpack is used for bundling your JavaScript sources and styles into a `bundle.js` file that your `index.html` file can import. 
+Modern web applications require a compilation step to prepare your ES2015 JavaScript or Sass stylesheets into compressed JavaScript ready for a browser. Webpack is used for bundling your JavaScript sources and styles into a `bundle.js` file that your `index.html` file can import.
 
 To run your application locally:
 ```bash
